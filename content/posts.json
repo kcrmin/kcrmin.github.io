@@ -1,0 +1,26 @@
+[
+  {
+    "slug": "keep-the-inputs",
+    "title": "데이터를 합쳐도, 과거의 실행은 같아야 한다",
+    "description": "조회 효율과 재현성 사이에서, 원본 교체 대신 새로운 조회 경로를 선택한 이유.",
+    "date": "2026-09-22",
+    "category": "데이터 설계",
+    "project": "Idea2Strategy"
+  },
+  {
+    "slug": "changing-preferences",
+    "title": "좋아요를 취소하면, 취향 점수도 바뀌어야 한다",
+    "description": "행동 이력과 현재 취향을 나누고, 이전 기여를 빼고 새 기여를 반영하기.",
+    "date": "2026-09-22",
+    "category": "추천 시스템",
+    "project": "숨길"
+  },
+  {
+    "slug": "decisions-that-last",
+    "title": "AI가 바뀌어도, 프로젝트의 결정은 남도록",
+    "description": "대화를 다시 설명하는 대신, 프로젝트 안에 이어갈 기준을 남기는 방법.",
+    "date": "2026-09-22",
+    "category": "개발 도구",
+    "project": "Stackcord"
+  }
+]

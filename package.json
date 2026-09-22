@@ -1,0 +1,12 @@
+{
+  "name": "kcrmin-blog",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=24" },
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "test": "node --test tests/*.test.mjs",
+    "check": "npm run build && npm test"
+  },
+  "dependencies": { "marked": "18.0.13" }
+}
