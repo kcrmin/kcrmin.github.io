@@ -1,16 +1,24 @@
 [
   {
+    "slug": "when-to-run",
+    "title": "요청은 언제든 받고, 계산 서버는 필요할 때 켜기",
+    "description": "API, 장중 모의거래, 백테스트의 실행 시간을 나누고 큐로 연결한 이유.",
+    "date": "2026-09-22",
+    "category": "백엔드 설계",
+    "project": "Idea2Strategy"
+  },
+  {
     "slug": "keep-the-inputs",
-    "title": "데이터를 합쳐도, 과거의 실행은 같아야 한다",
-    "description": "조회 효율과 재현성 사이에서, 원본 교체 대신 새로운 조회 경로를 선택한 이유.",
+    "title": "시세 파일을 합쳐도, 이전 실행의 입력은 남겨야 한다",
+    "description": "오래된 시세를 묶어 조회하면서도, 과거 실행이 읽었던 데이터를 보존하는 방법.",
     "date": "2026-09-22",
     "category": "데이터 설계",
     "project": "Idea2Strategy"
   },
   {
     "slug": "changing-preferences",
-    "title": "좋아요를 취소하면, 취향 점수도 바뀌어야 한다",
-    "description": "행동 이력과 현재 취향을 나누고, 이전 기여를 빼고 새 기여를 반영하기.",
+    "title": "좋아요가 관심 없음으로 바뀌면, 취향 점수는?",
+    "description": "반응을 계속 더하는 대신, 현재 유효한 반응과 당시 태그를 함께 관리하기.",
     "date": "2026-09-22",
     "category": "추천 시스템",
     "project": "숨길"

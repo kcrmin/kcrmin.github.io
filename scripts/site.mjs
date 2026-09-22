@@ -9,7 +9,7 @@ export function pdfSection(pdf) {
 }
 
 export function layout({ site, title, description = site.description, path = '/', active = '', body, article = false }) {
-  const nav = [['/', '글', 'writing'], ['/portfolio/', '포트폴리오', 'portfolio'], ['/about/', '소개', 'about']];
+  const nav = [['/#writing', '글', 'writing'], ['/portfolio/', '포트폴리오', 'portfolio'], ['/about/', '소개', 'about']];
   const fullTitle = title ? `${title} · ${site.name}` : `${site.name} — 개발 기록`;
   return `<!doctype html>
 <html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
